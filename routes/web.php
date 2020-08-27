@@ -16,5 +16,5 @@ Route::get('/', function () {
 });
 
 Route::get('/gallery', function () {
-    return view('gallery');
+    return view('subviews.gallery');
 });
